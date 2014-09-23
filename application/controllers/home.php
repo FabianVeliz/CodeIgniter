@@ -25,6 +25,7 @@ class Home extends CI_Controller {
 		$clean_url = $this->security->xss_clean($article_url);
 
 		$data['article'] = $this->Articles_model->show_articles_model($clean_url);
+
 		$header['title'] = $data['article']->article_name;
 
 		$this->load->view('templates/header', $header);
