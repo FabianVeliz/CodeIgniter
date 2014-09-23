@@ -39,6 +39,7 @@
 */
 
 $route['default_controller'] = 'home/view';
+$route['article/(:any)'] = 'home/show_articles/$1';
 
 
 
