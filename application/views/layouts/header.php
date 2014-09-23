@@ -21,7 +21,7 @@
 				<a href="<?= base_url(); ?>" class="logo">Logo</a>
 				<nav>
 					<ul>
-						<li><a href="<?= base_url(); ?>">Sell product</a></li>
+						<li><a href="<?= base_url(); ?>product">Sell product</a></li>
 						<li><a href="<?= base_url(); ?>">Add product</a></li>
 						<li><a href="<?= base_url(); ?>">Modify product</a></li>
 						<li><a href="<?= base_url(); ?>">Delete product</a></li>
