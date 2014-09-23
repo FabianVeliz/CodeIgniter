@@ -1,4 +1,4 @@
-<div class="mainContent">
+<div class="container">
 
 	<h1>News</h1>
 	<ul>
@@ -20,3 +20,4 @@
 	</ul>
 	
 </div>
+	

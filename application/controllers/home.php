@@ -12,9 +12,9 @@ class Home extends CI_Controller {
 		$header['title'] = 'Home';
 		$data['articles'] = $this->Articles_model->get_articles();
 		
-		$this->load->view('templates/header', $header);
+		$this->load->view('layouts/header', $header);
 		$this->load->view('pages/home', $data);
-		$this->load->view('templates/footer');
+		$this->load->view('layouts/footer');
 
 
 	}
@@ -28,9 +28,9 @@ class Home extends CI_Controller {
 
 		$header['title'] = $data['article']->article_name;
 
-		$this->load->view('templates/header', $header);
+		$this->load->view('layouts/header', $header);
 		$this->load->view('pages/view_article', $data);
-		$this->load->view('templates/footer');
+		$this->load->view('layouts/footer');
 
 
 	}
