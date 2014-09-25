@@ -1,6 +1,6 @@
 <div class="container">
 
-	<h1>Products</h1>
+	<h1>Delete Products</h1>
 	
 </div>
 	

@@ -38,9 +38,11 @@
 |
 */
 
-$route['default_controller'] = 'home/view';
-$route['article/(:any)'] = 'home/show_articles/$1';
-$route['product'] = 'product/product_list';
+$route['default_controller'] 	= 'product/product_sell';
+$route['product/sell'] 			= 'product/product_sell';
+$route['product/add'] 			= 'product/product_add';
+$route['product/modify']		= 'product/product_modify';
+$route['product/delete'] 		= 'product/product_delete';
 
 
 
